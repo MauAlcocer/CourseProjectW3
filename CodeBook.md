@@ -14,6 +14,7 @@ In order to obtain a tidy dataset with the characteristics enlisted on the Cours
 
 6. It is also necessary to create two new "bunches" of variables. The first one calculated as the average for each original variable for every subject (adding one variable per each original measurement, 79 extra variables) and a the second is the average for each subject in each original variable (another 79 additional variables). So the final tidy dataset is composed by 79 original measurements, plus 79 average measurement for each subject, plus 79 average measurements for each activity and 3 index variables (subject, activity_code [activities coded as in the original dataset with numbers] and activity.factor [correctly labeled activities]).
 
+## Final variables
 The final dataset variables are:
 
   [1] "subject"                             subject id (from 1 to 30). Original source subject_test.txt and         subject_train.txt files
